@@ -1,7 +1,8 @@
 var MoveDIR = keyboard_check(val_KeyRight) - keyboard_check(val_KeyLeft)
 
 val_Hspeed += MoveDIR * val_Mspeed
-
+if image_index == 1 { image_index = 0 }
+else { image_index = 1 }
 if val_Hspeed != 0
 {
 	image_xscale = sign(val_Hspeed)
