@@ -1,4 +1,5 @@
 {
+  "conversionMode": 0,
   "compression": 0,
   "volume": 0.5,
   "preload": false,
@@ -11,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "Sound_Jump01.wav",
-  "duration": 0.488628,
+  "duration": 0.483628,
   "parent": {
     "name": "소리",
     "path": "folders/소리.yy",

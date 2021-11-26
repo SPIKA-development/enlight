@@ -1,4 +1,5 @@
 {
+  "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
   "preload": false,
@@ -11,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "Sound_Death_Laser.wav",
-  "duration": 1.05305,
+  "duration": 1.04805,
   "parent": {
     "name": "소리",
     "path": "folders/소리.yy",

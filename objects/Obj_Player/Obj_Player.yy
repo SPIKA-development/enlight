@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_Player_Square",
-    "path": "sprites/Spr_Player_Square/Spr_Player_Square.yy",
+    "name": "Obj_Player1",
+    "path": "sprites/Obj_Player1/Obj_Player1.yy",
   },
   "solid": false,
   "visible": true,
