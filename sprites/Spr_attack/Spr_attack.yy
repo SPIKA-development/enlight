@@ -24,13 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"47513e32-ec0a-446e-9ba6-71bfa6fc4317","path":"sprites/Spr_attack/Spr_attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"47513e32-ec0a-446e-9ba6-71bfa6fc4317","path":"sprites/Spr_attack/Spr_attack.yy",},"LayerId":{"name":"6e046dc7-02d7-43e4-a3b2-4e478c5e1cad","path":"sprites/Spr_attack/Spr_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"47513e32-ec0a-446e-9ba6-71bfa6fc4317","path":"sprites/Spr_attack/Spr_attack.yy",},"LayerId":{"name":"661ee3cd-a81d-441b-99d7-a09cf1baa3d4","path":"sprites/Spr_attack/Spr_attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Spr_attack","path":"sprites/Spr_attack/Spr_attack.yy",},"resourceVersion":"1.0","name":"47513e32-ec0a-446e-9ba6-71bfa6fc4317","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"47513e32-ec0a-446e-9ba6-71bfa6fc4317","path":"sprites/Spr_Attack/Spr_Attack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"47513e32-ec0a-446e-9ba6-71bfa6fc4317","path":"sprites/Spr_Attack/Spr_Attack.yy",},"LayerId":{"name":"6e046dc7-02d7-43e4-a3b2-4e478c5e1cad","path":"sprites/Spr_Attack/Spr_Attack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Spr_Attack","path":"sprites/Spr_Attack/Spr_Attack.yy",},"resourceVersion":"1.0","name":"47513e32-ec0a-446e-9ba6-71bfa6fc4317","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Spr_attack","path":"sprites/Spr_attack/Spr_attack.yy",},
+    "spriteId": {"name":"Spr_Attack","path":"sprites/Spr_Attack/Spr_Attack.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -42,8 +41,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"57ca6839-c67c-4df4-91ca-2a56370db913","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"47513e32-ec0a-446e-9ba6-71bfa6fc4317","path":"sprites/Spr_attack/Spr_attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+            {"id":"57ca6839-c67c-4df4-91ca-2a56370db913","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"47513e32-ec0a-446e-9ba6-71bfa6fc4317","path":"sprites/Spr_Attack/Spr_Attack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -59,9 +58,9 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Spr_attack","path":"sprites/Spr_attack/Spr_attack.yy",},
+    "parent": {"name":"Spr_Attack","path":"sprites/Spr_Attack/Spr_Attack.yy",},
     "resourceVersion": "1.3",
-    "name": "Spr_attack",
+    "name": "Spr_Attack",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -74,7 +73,7 @@
     "path": "folders/스프라이트.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Spr_attack",
+  "name": "Spr_Attack",
   "tags": [],
   "resourceType": "GMSprite",
 }

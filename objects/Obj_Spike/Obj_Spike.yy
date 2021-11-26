@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_Ggarshi",
-    "path": "sprites/Spr_Ggarshi/Spr_Ggarshi.yy",
+    "name": "Spr_Spike",
+    "path": "sprites/Spr_Spike/Spr_Spike.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/객체.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Ggashi",
+  "name": "Obj_Spike",
   "tags": [],
   "resourceType": "GMObject",
 }
