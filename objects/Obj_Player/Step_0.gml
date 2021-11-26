@@ -28,14 +28,14 @@ if place_meeting(x, y + 1, Obj_DangerObject)
 {
 	x = xstart
 	y = ystart
+	audio_pause_sound(NightOwl)
 }
 
 if place_meeting(x, y, Obj_Platform)
 {
 	x = xstart
-	y = ystart	
+	y = ystart
 }
-
 
 if showmethemoney == true {
 	if mouse_check_button(mb_left)
@@ -47,9 +47,7 @@ if showmethemoney == true {
 		Effect3.image_angle = MouseDIR
 		Effect3.direction = MouseDIR
 	
-
 	}
-
 }
 else
 {
