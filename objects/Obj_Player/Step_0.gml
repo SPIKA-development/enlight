@@ -69,6 +69,8 @@ else
 	}
 }
 
+
+
 if val_HP <= 0
 {
 	val_HP = val_MaxHP

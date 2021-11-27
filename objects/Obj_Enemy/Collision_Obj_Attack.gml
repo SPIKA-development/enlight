@@ -13,7 +13,7 @@ if val_HP <= 0
 var defence = random(1)
 if defence <= val_DF
 {
-	instance_create_layer(x - 8, y - 28, layer, Obj_EnemyDefenceEffect)
+	instance_create_layer(x - 8, y - 28, layer, Obj_DefenceEffect)
 }
 else
 {

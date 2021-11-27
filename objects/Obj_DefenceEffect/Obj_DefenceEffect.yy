@@ -31,7 +31,7 @@
     "path": "folders/객체.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_EnemyDefenceEffect",
+  "name": "Obj_DefenceEffect",
   "tags": [],
   "resourceType": "GMObject",
 }

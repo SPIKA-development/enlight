@@ -30,7 +30,7 @@
     {"id":{"name":"Obj_GameStart","path":"objects/Obj_GameStart/Obj_GameStart.yy",},"order":23,},
     {"id":{"name":"Sound_Jump01","path":"sounds/Sound_Jump01/Sound_Jump01.yy",},"order":0,},
     {"id":{"name":"Obj_Damage","path":"objects/Obj_Damage/Obj_Damage.yy",},"order":22,},
-    {"id":{"name":"Obj_EnemyDefenceEffect","path":"objects/Obj_EnemyDefenceEffect/Obj_EnemyDefenceEffect.yy",},"order":16,},
+    {"id":{"name":"Obj_DefenceEffect","path":"objects/Obj_DefenceEffect/Obj_DefenceEffect.yy",},"order":16,},
     {"id":{"name":"Spr_OnOff_00","path":"sprites/Spr_OnOff_00/Spr_OnOff_00.yy",},"order":3,},
     {"id":{"name":"Obj_OnOff","path":"objects/Obj_OnOff/Obj_OnOff.yy",},"order":8,},
     {"id":{"name":"Obj_Enemy","path":"objects/Obj_Enemy/Obj_Enemy.yy",},"order":15,},
@@ -96,7 +96,7 @@
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"a.txt","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "2.3.7.603",
+    "IDEVersion": "2.3.2.560",
   },
   "resourceVersion": "1.4",
   "name": "JumpGod",
