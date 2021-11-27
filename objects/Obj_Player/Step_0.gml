@@ -35,12 +35,16 @@ if place_meeting(x, y + 1, Obj_DangerObject)
 	y = ystart
 	audio_pause_sound(NightOwl)
 	audio_play_sound(Sound_GameOver, 0, 0)
+	room_restart()
 }
 
 if place_meeting(x, y, Obj_Platform)
 {
 	x = xstart
 	y = ystart
+	audio_pause_sound(NightOwl)
+	audio_play_sound(Sound_GameOver, 0, 0)
+	room_restart()
 }
 
 if showmethemoney == true {
@@ -79,6 +83,7 @@ if val_HP <= 0
 	y = ystart
 	audio_pause_sound(NightOwl)
 	audio_play_sound(Sound_GameOver, 0, 0)
+	room_restart()
 }
 
 event_inherited();
