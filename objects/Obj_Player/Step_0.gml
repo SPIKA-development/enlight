@@ -20,7 +20,7 @@ if !place_meeting(x, y + 1, Obj_Platform)
 	if (sign (val_Vspeed) > 0) image_index = 1; else image_index = 0;
 	
 }*/
-// 오류 있음. 플라이 활성화시 게임 멈춤, 걷고 나서 멈춘 뒤에도 잠시 걸음. 수정바람 - Kyanite
+// 오류 있음. 플라이 활성화시 게임 멈춤
 if place_meeting(x, y + 1, Obj_Platform)
 {
 	image_speed = 1

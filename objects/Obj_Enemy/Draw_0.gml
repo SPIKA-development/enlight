@@ -16,6 +16,6 @@ if val_HP != val_MaxHP
 if (Obj_Debugmode.debug == true){
 	draw_set_color(c_green);
 	draw_line(x, y, x + lengthdir_x(100, direction), y + lengthdir_y(100, direction));
-	draw_sprite_ext(sprite_index,0,x,y,1,1,0,c_yellow,0.5);
+	// draw_sprite_ext(sprite_index,0,x,y,1,1,0,c_yellow,0.5);
 	draw_set_color(c_white)
 }
