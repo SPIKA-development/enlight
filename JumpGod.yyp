@@ -41,6 +41,7 @@
     {"id":{"name":"Spr_Wall_00","path":"sprites/Spr_Wall_00/Spr_Wall_00.yy",},"order":1,},
     {"id":{"name":"Obj_GameStart","path":"objects/Obj_GameStart/Obj_GameStart.yy",},"order":23,},
     {"id":{"name":"Sound_Jump01","path":"sounds/Sound_Jump01/Sound_Jump01.yy",},"order":0,},
+    {"id":{"name":"Spr_BackTile_CyberPunk_00","path":"sprites/Spr_BackTile_CyberPunk_00/Spr_BackTile_CyberPunk_00.yy",},"order":28,},
     {"id":{"name":"Obj_Damage","path":"objects/Obj_Damage/Obj_Damage.yy",},"order":22,},
     {"id":{"name":"Obj_DefenceEffect","path":"objects/Obj_DefenceEffect/Obj_DefenceEffect.yy",},"order":16,},
     {"id":{"name":"Spr_Rope_Micro","path":"sprites/Spr_Rope_Micro/Spr_Rope_Micro.yy",},"order":27,},
