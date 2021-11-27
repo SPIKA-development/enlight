@@ -24,7 +24,7 @@ if !place_meeting(x, y + 1, Obj_Platform)
 if place_meeting(x, y + 1, Obj_Platform)
 {
 	image_speed = 1
-	if (val_Hspeed == 0) { sprite_index = Spr_Player_Null; }
+	if (floor(val_Hspeed) == 0 or ceil(val_Hspeed) == 0) { sprite_index = Spr_Player_Null; }
 	else { sprite_index  = Spr_Player_Null_Move }
 }
 if place_meeting(x, y + 1, Obj_Platform)
@@ -60,6 +60,7 @@ if place_meeting(x, y, Obj_Platform)
 }
 
 if showmethemoney == true {
+	val_Invincibility = true
 	if mouse_check_button(mb_left)
 	{	
 		alarm[0] = 15

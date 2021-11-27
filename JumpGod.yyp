@@ -35,6 +35,7 @@
     {"id":{"name":"Obj_DefenceEffect","path":"objects/Obj_DefenceEffect/Obj_DefenceEffect.yy",},"order":16,},
     {"id":{"name":"Spr_OnOff_00","path":"sprites/Spr_OnOff_00/Spr_OnOff_00.yy",},"order":3,},
     {"id":{"name":"Obj_OnOff","path":"objects/Obj_OnOff/Obj_OnOff.yy",},"order":8,},
+    {"id":{"name":"Obj_Debugmode","path":"objects/Obj_Debugmode/Obj_Debugmode.yy",},"order":25,},
     {"id":{"name":"Obj_Enemy","path":"objects/Obj_Enemy/Obj_Enemy.yy",},"order":15,},
     {"id":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},"order":0,},
     {"id":{"name":"mainMenu","path":"rooms/mainMenu/mainMenu.yy",},"order":1,},

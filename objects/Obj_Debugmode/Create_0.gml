@@ -1,5 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-Attdelay = true
-showmethemoney = false
-Debugmode = false
+debug = false // 완성아님
