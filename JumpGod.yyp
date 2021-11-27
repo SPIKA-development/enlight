@@ -43,6 +43,7 @@
     {"id":{"name":"Spr_Spike","path":"sprites/Spr_Spike/Spr_Spike.yy",},"order":2,},
     {"id":{"name":"Spr_E1","path":"sprites/Spr_E1/Spr_E1.yy",},"order":5,},
     {"id":{"name":"Obj_Object","path":"objects/Obj_Object/Obj_Object.yy",},"order":3,},
+    {"id":{"name":"Spr_Crosshair","path":"sprites/Spr_Crosshair/Spr_Crosshair.yy",},"order":17,},
     {"id":{"name":"Obj_AttackEffect3","path":"objects/Obj_AttackEffect3/Obj_AttackEffect3.yy",},"order":14,},
     {"id":{"name":"Obj_Readme","path":"objects/Obj_Readme/Obj_Readme.yy",},"order":19,},
     {"id":{"name":"testroom1","path":"rooms/testroom1/testroom1.yy",},"order":0,},
