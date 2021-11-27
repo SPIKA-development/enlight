@@ -113,6 +113,20 @@ if (place_meeting(x, y, Obj_Ladder))
 		val_Vspeed = 0;
 		val_Gravity = 0;
 	}
+	
+	if keyboard_check(val_KeyJump)
+	{
+		val_Charge += val_CSpeed
+		val_Charge = min(val_Charge, val_MaxCharge)
+	}
+	else if val_Charge != 0
+	{
+		val_Hspeed += val_Charge / val_MaxCharge * val_JHspeed * image_xscale
+		val_Vspeed += val_Charge / val_MaxCharge * val_JVspeed
+		
+		val_Charge = 0
+		audio_play_sound(Sound_Jump01, 0, 0)
+	}
 		
 }
 else
