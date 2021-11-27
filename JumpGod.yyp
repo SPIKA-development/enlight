@@ -25,6 +25,7 @@
     {"id":{"name":"Spr_Wall_DarkStone","path":"sprites/Spr_Wall_DarkStone/Spr_Wall_DarkStone.yy",},"order":12,},
     {"id":{"name":"Spr_Player_Square","path":"sprites/Spr_Player_Square/Spr_Player_Square.yy",},"order":0,},
     {"id":{"name":"Obj_AttackTest","path":"objects/Obj_AttackTest/Obj_AttackTest.yy",},"order":13,},
+    {"id":{"name":"Sound_GameOver","path":"sounds/Sound_GameOver/Sound_GameOver.yy",},"order":3,},
     {"id":{"name":"Obj_Wall_00_Danger","path":"objects/Obj_Wall_00_Danger/Obj_Wall_00_Danger.yy",},"order":20,},
     {"id":{"name":"Spr_Wall_00","path":"sprites/Spr_Wall_00/Spr_Wall_00.yy",},"order":1,},
     {"id":{"name":"Obj_GameStart","path":"objects/Obj_GameStart/Obj_GameStart.yy",},"order":23,},
