@@ -12,6 +12,7 @@
     {"id":{"name":"Spr_Shild","path":"sprites/Spr_Shild/Spr_Shild.yy",},"order":6,},
     {"id":{"name":"Spr_Player_Null","path":"sprites/Spr_Player_Null/Spr_Player_Null.yy",},"order":10,},
     {"id":{"name":"Spr_Wall_Grass","path":"sprites/Spr_Wall_Grass/Spr_Wall_Grass.yy",},"order":15,},
+    {"id":{"name":"Spr_Player_Null_Move","path":"sprites/Spr_Player_Null_Move/Spr_Player_Null_Move.yy",},"order":17,},
     {"id":{"name":"Obj_Wall_00","path":"objects/Obj_Wall_00/Obj_Wall_00.yy",},"order":1,},
     {"id":{"name":"Spr_Wall_00_red","path":"sprites/Spr_Wall_00_red/Spr_Wall_00_red.yy",},"order":9,},
     {"id":{"name":"Spr_Critical","path":"sprites/Spr_Critical/Spr_Critical.yy",},"order":7,},
@@ -89,7 +90,7 @@
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"a.txt","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "2.3.7.603",
+    "IDEVersion": "2.3.2.560",
   },
   "resourceVersion": "1.4",
   "name": "JumpGod",
