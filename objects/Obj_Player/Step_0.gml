@@ -96,21 +96,29 @@ if val_HP <= 0
 event_inherited();
 
 //사다리
-//손 떼면 멈추는거, 플랫폼 무시하는거 안만들어짐 / 사다리 올라가다보면 가속 붙음(고쳐주셈)
-if (place_meeting(x + val_Hspeed, y + val_Vspeed, Obj_Ladder))
+if (place_meeting(x, y, Obj_Ladder))
 {
 	val_On_Ladder = true;
+	
 	var vertical_input = keyboard_check(val_KeyDown) - keyboard_check(val_KeyUp);
+	
 	if (vertical_input != 0)
 	{
 		val_Vspeed += vertical_input * val_LadderSpeed;
-		val_Vspeed = clamp(val_Vspeed, -(val_JHspeed * 0.75), (	val_JHspeed * 0.75));
+		val_Vspeed = clamp(val_Vspeed, -(val_LadderSpeed), (val_LadderSpeed));
+		val_Hspeed = val_Hspeed * 0.5;
+	}
+	else if (vertical_input == 0)
+	{
+		val_Vspeed = 0;
+		val_Gravity = 0;
 	}
 		
 }
 else
 {
-	val_On_Ladder = false; 
+	val_On_Ladder = false;
+	val_Gravity = 0.7;
 }
 
 if (val_On_Ladder == false)
