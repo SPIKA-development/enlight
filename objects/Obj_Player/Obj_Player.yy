@@ -34,6 +34,8 @@
   "properties": [
     {"varType":0,"value":"ord(\"A\")","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_KeyLeft","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"ord(\"D\")","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_KeyRight","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"ord(\"W\")","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_KeyUp","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"ord(\"S\")","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_KeyDown","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"vk_space","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_KeyJump","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"ord(\"F\")","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_KeyShoot","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_Mspeed","tags":[],"resourceType":"GMObjectProperty",},
@@ -46,6 +48,8 @@
     {"varType":0,"value":"val_HP","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_MaxHP","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"0.25","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_Defence","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":3,"value":"False","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_Invincibility","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":3,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_On_Ladder","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_LadderSpeed","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [
     {"propertyId":{"name":"val_Friction","path":"objects/Obj_Object/Obj_Object.yy",},"objectId":{"name":"Obj_Object","path":"objects/Obj_Object/Obj_Object.yy",},"value":"0.75254","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
