@@ -25,6 +25,7 @@
     {"id":{"name":"Obj_Wall_00_Danger","path":"objects/Obj_Wall_00_Danger/Obj_Wall_00_Danger.yy",},"order":20,},
     {"id":{"name":"Spr_Wall_00","path":"sprites/Spr_Wall_00/Spr_Wall_00.yy",},"order":1,},
     {"id":{"name":"Sound_Jump01","path":"sounds/Sound_Jump01/Sound_Jump01.yy",},"order":0,},
+    {"id":{"name":"Obj_Damage","path":"objects/Obj_Damage/Obj_Damage.yy",},"order":22,},
     {"id":{"name":"Obj_EnemyDefenceEffect","path":"objects/Obj_EnemyDefenceEffect/Obj_EnemyDefenceEffect.yy",},"order":16,},
     {"id":{"name":"Spr_OnOff_00","path":"sprites/Spr_OnOff_00/Spr_OnOff_00.yy",},"order":3,},
     {"id":{"name":"Obj_OnOff","path":"objects/Obj_OnOff/Obj_OnOff.yy",},"order":8,},
