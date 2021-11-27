@@ -42,7 +42,7 @@
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"1ee9e74a-4b68-4d0b-ae0b-c2d873ca5b1f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"786445c2-8883-48e3-b4cf-344690e75a0e","path":"sprites/Spr_Wall_DarkStone/Spr_Wall_DarkStone.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -67,7 +67,31 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"75668f0f-a72a-4562-99dc-0b81db6cb4df","tags":[],"resourceType":"GMImageLayer",},
   ],
-  "nineSlice": null,
+  "nineSlice": {
+    "left": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "guideColour": [
+      4294902015,
+      4294902015,
+      4294902015,
+      4294902015,
+    ],
+    "highlightColour": 1728023040,
+    "highlightStyle": 0,
+    "enabled": false,
+    "tileMode": [
+      0,
+      0,
+      0,
+      0,
+      0,
+    ],
+    "resourceVersion": "1.0",
+    "loadedVersion": null,
+    "resourceType": "GMNineSliceData",
+  },
   "parent": {
     "name": "스프라이트",
     "path": "folders/스프라이트.yy",

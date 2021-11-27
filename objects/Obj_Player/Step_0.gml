@@ -7,11 +7,7 @@ if val_Hspeed != 0
 	image_xscale = sign(val_Hspeed)
 }
 
-/* if keyboard_check(val_KeyRight) == true or keyboard_check(val_KeyLeft) == true
-	{
- 	object_set_sprite(Obj_Player, Spr_Player_Null_Move)	
-	}
-else { object_set_sprite(Obj_Player, Spr_Player_Null) } */
+
 /*
 if !place_meeting(x, y + 1, Obj_Platform)
 {
