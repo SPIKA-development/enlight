@@ -31,8 +31,6 @@ if place_meeting(x, y + 1, Obj_Platform)
 
 if place_meeting(x, y + 1, Obj_DangerObject)
 {
-	x = xstart
-	y = ystart
 	audio_pause_sound(NightOwl)
 	audio_play_sound(Sound_GameOver, 0, 0)
 	room_restart()
@@ -40,8 +38,6 @@ if place_meeting(x, y + 1, Obj_DangerObject)
 
 if place_meeting(x, y, Obj_Platform)
 {
-	x = xstart
-	y = ystart
 	audio_pause_sound(NightOwl)
 	audio_play_sound(Sound_GameOver, 0, 0)
 	room_restart()
@@ -79,8 +75,6 @@ else
 if val_HP <= 0
 {
 	val_HP = val_MaxHP
-	x = xstart
-	y = ystart
 	audio_pause_sound(NightOwl)
 	audio_play_sound(Sound_GameOver, 0, 0)
 	room_restart()

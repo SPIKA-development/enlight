@@ -23,6 +23,7 @@
     {"id":{"name":"Font_Main","path":"fonts/Font_Main/Font_Main.yy",},"order":0,},
     {"id":{"name":"NightOwl","path":"sounds/NightOwl/NightOwl.yy",},"order":2,},
     {"id":{"name":"Spr_Wall_DarkStone","path":"sprites/Spr_Wall_DarkStone/Spr_Wall_DarkStone.yy",},"order":12,},
+    {"id":{"name":"TitleTheme","path":"sounds/TitleTheme/TitleTheme.yy",},"order":4,},
     {"id":{"name":"Spr_Player_Square","path":"sprites/Spr_Player_Square/Spr_Player_Square.yy",},"order":0,},
     {"id":{"name":"Obj_AttackTest","path":"objects/Obj_AttackTest/Obj_AttackTest.yy",},"order":13,},
     {"id":{"name":"Sound_GameOver","path":"sounds/Sound_GameOver/Sound_GameOver.yy",},"order":3,},
@@ -97,7 +98,7 @@
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"a.txt","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "2.3.2.560",
+    "IDEVersion": "2.3.7.603",
   },
   "resourceVersion": "1.4",
   "name": "JumpGod",
