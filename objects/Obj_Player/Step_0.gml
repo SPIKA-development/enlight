@@ -6,14 +6,30 @@ if val_Hspeed != 0
 {
 	image_xscale = sign(val_Hspeed)
 }
+
+/* if keyboard_check(val_KeyRight) == true or keyboard_check(val_KeyLeft) == true
+	{
+ 	object_set_sprite(Obj_Player, Spr_Player_Null_Move)	
+	}
+else { object_set_sprite(Obj_Player, Spr_Player_Null) } */
 /*
-if keyboard_check(val_KeyRight) == true or keyboard_check(val_KeyLeft) == true
+if !place_meeting(x, y + 1, Obj_Platform)
 {
-	object_set_sprite(Obj_Player, Spr_Player_Null_Move)	
-}
-else { object_set_sprite(Obj_Player, Spr_Player_Null) }*/
+	sprite_index = Spr_Player_Null_Fly
+	image_speed = 0
+	if (sign (val_Vspeed) > 0) image_index = 1; else image_index = 0;
+	
+}*/
+// 오류 있음. 플라이 활성화시 게임 멈춤, 걷고 나서 멈춘 뒤에도 잠시 걸음. 수정바람 - Kyanite
 if place_meeting(x, y + 1, Obj_Platform)
 {
+	image_speed = 1
+	if (val_Hspeed == 0) { sprite_index = Spr_Player_Null; }
+	else { sprite_index  = Spr_Player_Null_Move }
+}
+if place_meeting(x, y + 1, Obj_Platform)
+{
+	
 	if keyboard_check(val_KeyJump)
 	{
 		val_Charge += val_CSpeed

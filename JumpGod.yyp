@@ -51,6 +51,7 @@
     {"id":{"name":"Obj_Object","path":"objects/Obj_Object/Obj_Object.yy",},"order":3,},
     {"id":{"name":"Spr_Crosshair_00_White","path":"sprites/Spr_Crosshair_00_White/Spr_Crosshair_00_White.yy",},"order":17,},
     {"id":{"name":"Obj_AttackEffect3","path":"objects/Obj_AttackEffect3/Obj_AttackEffect3.yy",},"order":14,},
+    {"id":{"name":"Spr_Player_Null_Fly","path":"sprites/Spr_Player_Null_Fly/Spr_Player_Null_Fly.yy",},"order":19,},
     {"id":{"name":"Obj_Readme","path":"objects/Obj_Readme/Obj_Readme.yy",},"order":19,},
     {"id":{"name":"testroom1","path":"rooms/testroom1/testroom1.yy",},"order":0,},
   ],
