@@ -1,7 +1,7 @@
 {
   "option_windows_display_name": "Project III",
   "option_windows_executable_name": "Project-III.exe",
-  "option_windows_version": "0.0.8.1",
+  "option_windows_version": "0.0.8.2",
   "option_windows_company_info": "VANTA GAMES",
   "option_windows_product_info": "Project III",
   "option_windows_copyright_info": "",
