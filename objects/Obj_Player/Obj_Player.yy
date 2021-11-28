@@ -49,6 +49,7 @@
     {"varType":0,"value":"0.25","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_Defence","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":3,"value":"False","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_Invincibility","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"3","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_LadderSpeed","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"3.0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_RespawnTime","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [
     {"propertyId":{"name":"val_Friction","path":"objects/Obj_Object/Obj_Object.yy",},"objectId":{"name":"Obj_Object","path":"objects/Obj_Object/Obj_Object.yy",},"value":"0.75254","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
