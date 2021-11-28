@@ -33,6 +33,7 @@
     {"id":{"name":"Obj_Rope_Mini","path":"objects/Obj_Rope_Mini/Obj_Rope_Mini.yy",},"order":30,},
     {"id":{"name":"TitleTheme","path":"sounds/TitleTheme/TitleTheme.yy",},"order":4,},
     {"id":{"name":"Spr_Player_Square","path":"sprites/Spr_Player_Square/Spr_Player_Square.yy",},"order":0,},
+    {"id":{"name":"Obj_Wall_Stone","path":"objects/Obj_Wall_Stone/Obj_Wall_Stone.yy",},"order":32,},
     {"id":{"name":"Obj_AttackTest","path":"objects/Obj_AttackTest/Obj_AttackTest.yy",},"order":13,},
     {"id":{"name":"Obj_Rope","path":"objects/Obj_Rope/Obj_Rope.yy",},"order":29,},
     {"id":{"name":"Spr_Rope","path":"sprites/Spr_Rope/Spr_Rope.yy",},"order":25,},
