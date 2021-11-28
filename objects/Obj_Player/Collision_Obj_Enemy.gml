@@ -7,7 +7,7 @@ else{
 	var defence = random(1)
 	if defence <= val_Defence
 	{
-		instance_create_layer(x - 8, y - 36, layer, Obj_DefenceEffect)
+		instance_create_layer(x - 8, y - 36, "Effects", Obj_DefenceEffect)
 	}
 	else
 	{
@@ -15,7 +15,7 @@ else{
 		var critical = random(1)
 		if critical <= other.val_Critical
 		{
-			instance_create_layer(x + 8, y - 36, layer, Obj_CriticalEffect)
+			instance_create_layer(x + 8, y - 36, "Effects", Obj_CriticalEffect)
 			val_HP -= other.val_AT * 2
 		}
 
