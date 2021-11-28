@@ -8,6 +8,18 @@
 ```
 (버전은 커밋할때마다 업데이트한다, 업데이트 안하면 죽임)
 
+버전 변경 방법
+
+![image](https://user-images.githubusercontent.com/68188784/143765093-2bbabc5b-050a-47d3-b6e7-bab5e10bc986.png)
+
+게임메이커에서 프로젝트를 켜, 위의 상단바에서 설정 버튼을 누른다.
+
+이후, 전역 설정 창에서, 플렛폼 -> Windows에 들어가 버전을 변경한다. (아래 이미지)
+
+![image](https://user-images.githubusercontent.com/68188784/143765119-ac9f81f7-fdca-4c4b-b27d-38fef4943b03.png)
+
+-----
+
 현재 버전: **Pre-Alpha r8 (0.0)**
  * 기본적인 플레이 가능
  * 배경음악 추가
