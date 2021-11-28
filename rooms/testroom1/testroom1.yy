@@ -169,6 +169,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_Wall_Stone","path":"objects/Obj_Wall_Stone/Obj_Wall_Stone.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":0.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":772.0,"y":640.0,"resourceVersion":"1.0","name":"inst_BA1714D","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_Wall_Stone","path":"objects/Obj_Wall_Stone/Obj_Wall_Stone.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.875,"scaleY":0.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":804.0,"y":640.0,"resourceVersion":"1.0","name":"inst_2214056C","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_Ladder_Micro","path":"objects/Obj_Ladder_Micro/Obj_Ladder_Micro.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":568.0,"y":624.0,"resourceVersion":"1.0","name":"inst_2FF9493","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"Obj_GlowTest","path":"objects/Obj_GlowTest/Obj_GlowTest.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":356.0,"y":676.0,"resourceVersion":"1.0","name":"inst_47B94F3C","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":4,"gridY":4,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Effects_under","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
@@ -266,6 +267,7 @@
     {"name":"inst_BA1714D","path":"rooms/testroom1/testroom1.yy",},
     {"name":"inst_2214056C","path":"rooms/testroom1/testroom1.yy",},
     {"name":"inst_2FF9493","path":"rooms/testroom1/testroom1.yy",},
+    {"name":"inst_47B94F3C","path":"rooms/testroom1/testroom1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

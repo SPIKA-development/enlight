@@ -95,7 +95,7 @@ if val_HP <= 0
 
 event_inherited();
 
-//사다리
+//사다리(좌우 이동 빨라지는 버그)
 if (place_meeting(x, y, Obj_Ladder))
 {
 	val_On_Ladder = true;
