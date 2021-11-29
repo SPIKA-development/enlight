@@ -22,10 +22,10 @@
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
-    {"varType":0,"value":"1280","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_CamWidth","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":0,"value":"720","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_CamHeight","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":0,"value":"1280","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_GoalCamWidth","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":0,"value":"720","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_GoalCamHeight","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"1344 / 2","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_CamWidth","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"768 / 2","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_CamHeight","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"1344 / 2","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_GoalCamWidth","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"768 / 2","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_GoalCamHeight","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {
