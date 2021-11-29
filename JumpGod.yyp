@@ -63,6 +63,7 @@
     {"id":{"name":"mainMenu","path":"rooms/mainMenu/mainMenu.yy",},"order":1,},
     {"id":{"name":"Obj_AttackEffect","path":"objects/Obj_AttackEffect/Obj_AttackEffect.yy",},"order":10,},
     {"id":{"name":"Obj_DangerObject","path":"objects/Obj_DangerObject/Obj_DangerObject.yy",},"order":7,},
+    {"id":{"name":"ScreenShake","path":"scripts/ScreenShake/ScreenShake.yy",},"order":0,},
     {"id":{"name":"Obj_Platform","path":"objects/Obj_Platform/Obj_Platform.yy",},"order":2,},
     {"id":{"name":"Obj_Spike","path":"objects/Obj_Spike/Obj_Spike.yy",},"order":6,},
     {"id":{"name":"Obj_TestEnemy","path":"objects/Obj_TestEnemy/Obj_TestEnemy.yy",},"order":18,},
@@ -124,7 +125,7 @@
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"a.txt","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "2.3.2.560",
+    "IDEVersion": "2.3.7.603",
   },
   "resourceVersion": "1.4",
   "name": "JumpGod",

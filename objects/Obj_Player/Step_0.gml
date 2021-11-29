@@ -71,6 +71,7 @@ if showmethemoney == true {
 		var Effect3 = instance_create_layer(x, y, layer, Obj_AttackEffect3)
 		Effect3.image_angle = MouseDIR
 		Effect3.direction = MouseDIR
+
 	
 	}
 }
@@ -84,7 +85,7 @@ else
 		var Effect3 = instance_create_layer(x, y, layer, Obj_AttackEffect3)
 		Effect3.image_angle = MouseDIR
 		Effect3.direction = MouseDIR
-	
+		ScreenShake(2, 10); //공격시 화면 흔들림 : 프레임, 세기
 		Attdelay = false
 	}
 }
