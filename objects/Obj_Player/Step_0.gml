@@ -43,16 +43,22 @@ if place_meeting(x, y + 1, Obj_Platform)
 
 if place_meeting(x, y + 1, Obj_DangerObject)
 {
+	instance_create_layer(x, y, "GUI", Obj_Fade)
 	audio_pause_sound(NightOwl)
 	audio_play_sound(Sound_GameOver, 0, 0)
+	alarm[2] = 60
 	room_restart()
+	
 }
 
 if place_meeting(x, y, Obj_Platform)
 {
+	instance_create_layer(x, y, "GUI", Obj_Fade)
 	audio_pause_sound(NightOwl)
 	audio_play_sound(Sound_GameOver, 0, 0)
+	alarm[2] = 60
 	room_restart()
+	
 }
 
 if showmethemoney == true {
@@ -88,9 +94,12 @@ else
 if val_HP <= 0
 {
 	val_HP = val_MaxHP
+	instance_create_layer(x, y, "GUI", Obj_Fade)
 	audio_pause_sound(NightOwl)
 	audio_play_sound(Sound_GameOver, 0, 0)
+	alarm[2] = 60
 	room_restart()
+	
 }
 
 event_inherited();

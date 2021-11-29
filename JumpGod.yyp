@@ -24,6 +24,7 @@
     {"id":{"name":"Spr_Crosshair_00_Red","path":"sprites/Spr_Crosshair_00_Red/Spr_Crosshair_00_Red.yy",},"order":19,},
     {"id":{"name":"Spr_Critical","path":"sprites/Spr_Critical/Spr_Critical.yy",},"order":7,},
     {"id":{"name":"Spr_Ladder_Mini","path":"sprites/Spr_Ladder_Mini/Spr_Ladder_Mini.yy",},"order":23,},
+    {"id":{"name":"Obj_Fade","path":"objects/Obj_Fade/Obj_Fade.yy",},"order":36,},
     {"id":{"name":"Obj_Ladder_Micro","path":"objects/Obj_Ladder_Micro/Obj_Ladder_Micro.yy",},"order":33,},
     {"id":{"name":"Obj_IamChobo","path":"objects/Obj_IamChobo/Obj_IamChobo.yy",},"order":9,},
     {"id":{"name":"Spr_Recovery","path":"sprites/Spr_Recovery/Spr_Recovery.yy",},"order":16,},
@@ -123,7 +124,7 @@
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"a.txt","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "2.3.7.603",
+    "IDEVersion": "2.3.2.560",
   },
   "resourceVersion": "1.4",
   "name": "JumpGod",
