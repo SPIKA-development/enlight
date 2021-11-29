@@ -45,11 +45,7 @@ if place_meeting(x, y + 1, Obj_DangerObject)
 {
 	audio_pause_sound(NightOwl)
 	audio_play_sound(Sound_GameOver, 0, 0)
-	val_RespawnTime = val_RespawnTime - delta_time/1000000
-	if (val_RespawnTime <= 0)
-	{
-		room_restart();
-	}
+	room_restart()
 }
 
 if place_meeting(x, y, Obj_Platform)
@@ -94,6 +90,7 @@ if val_HP <= 0
 	val_HP = val_MaxHP
 	audio_pause_sound(NightOwl)
 	audio_play_sound(Sound_GameOver, 0, 0)
+	room_restart()
 }
 
 event_inherited();
