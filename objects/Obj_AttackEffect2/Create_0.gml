@@ -1,7 +1,8 @@
 //hspeed = random_range(-4, 4)
 //vspeed = random_range(-4, -8)
 //gravity = 0.8
-
+glowpower = 0.5;
+glowscale = 1.2;
 speed = random_range(4, 8)
 direction = random(360)
 friction = random(0.2)

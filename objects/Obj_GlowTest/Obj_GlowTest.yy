@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_GlowTest",
-    "path": "sprites/Spr_GlowTest/Spr_GlowTest.yy",
+    "name": "Spr_Wall_DarkStone",
+    "path": "sprites/Spr_Wall_DarkStone/Spr_Wall_DarkStone.yy",
   },
   "solid": false,
   "visible": true,
