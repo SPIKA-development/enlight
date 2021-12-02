@@ -119,7 +119,7 @@ switch(val_State) {
     case "ground" : 
     {
         val_Gravity = 1
-        
+		
         val_Hspeed = (keyboard_check(ord("D")) - keyboard_check(ord("A"))) * 4
 
         if (not collision_platform(x, y, yprevious) and collision_platform(x, y + 1, yprevious) and keyboard_check(vk_space)) {
@@ -127,6 +127,8 @@ switch(val_State) {
         }
         
         if val_On_Ladder and (keyboard_check(ord("W")) or keyboard_check(ord("S"))) val_State = "ladder"
+		
+		val_Hspeed *= val_Friction
     }
     break
     
