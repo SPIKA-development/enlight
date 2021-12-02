@@ -25,7 +25,7 @@
   ],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"val_Collision","path":"objects/Obj_Platform/Obj_Platform.yy",},"objectId":{"name":"Obj_Platform","path":"objects/Obj_Platform/Obj_Platform.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"half","path":"objects/Obj_Platform/Obj_Platform.yy",},"objectId":{"name":"Obj_Platform","path":"objects/Obj_Platform/Obj_Platform.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "객체",

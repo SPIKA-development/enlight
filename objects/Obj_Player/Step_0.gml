@@ -1,6 +1,6 @@
-var MoveDIR = keyboard_check(val_KeyRight) - keyboard_check(val_KeyLeft)
+//var MoveDIR = keyboard_check(val_KeyRight) - keyboard_check(val_KeyLeft)
 
-val_Hspeed += MoveDIR * val_Mspeed
+//val_Hspeed += MoveDIR * val_Mspeed
 
 if val_Hspeed != 0
 {
@@ -122,8 +122,8 @@ switch(val_State) {
 		
         val_Hspeed = (keyboard_check(ord("D")) - keyboard_check(ord("A"))) * 4
 
-        if (not collision_platform(x, y, yprevious) and collision_platform(x, y + 1, yprevious) and keyboard_check(vk_space)) {
-            val_Vspeed = -20
+        if (not collision_platform(x, y, yprevious) and collision_platform(x, y + 1, yprevious) and keyboard_check_pressed(vk_space)) {
+            val_Vspeed -= 12
         }
         
         if val_On_Ladder and (keyboard_check(ord("W")) or keyboard_check(ord("S"))) val_State = "ladder"
