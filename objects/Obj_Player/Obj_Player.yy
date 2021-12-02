@@ -51,11 +51,13 @@
     {"varType":3,"value":"False","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_Invincibility","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"3","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_LadderSpeed","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"3.0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_RespawnTime","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"1.4","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_OriginalGravity","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_State","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [
     {"propertyId":{"name":"val_Friction","path":"objects/Obj_Object/Obj_Object.yy",},"objectId":{"name":"Obj_Object","path":"objects/Obj_Object/Obj_Object.yy",},"value":"0.75254","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"val_MaxHspeed","path":"objects/Obj_Object/Obj_Object.yy",},"objectId":{"name":"Obj_Object","path":"objects/Obj_Object/Obj_Object.yy",},"value":"8","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"val_Gravity","path":"objects/Obj_Object/Obj_Object.yy",},"objectId":{"name":"Obj_Object","path":"objects/Obj_Object/Obj_Object.yy",},"value":"0.7","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"val_Gravity","path":"objects/Obj_Object/Obj_Object.yy",},"objectId":{"name":"Obj_Object","path":"objects/Obj_Object/Obj_Object.yy",},"value":"1.4","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "객체",

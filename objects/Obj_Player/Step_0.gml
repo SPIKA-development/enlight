@@ -8,24 +8,23 @@ if val_Hspeed != 0
 }
 
 
-/*
+
 if !place_meeting(x, y + 1, Obj_Platform)
 {
 	sprite_index = Spr_Player_Null_Fly
 	image_speed = 0
-	if (sign (val_Vspeed) > 0) image_index = 1; else image_index = 0;
-	
-}*/
+	if (sign (val_Vspeed) > 0) image_index = 1; else image_index = 0;	
+}
 // 오류 있음. 플라이 활성화시 게임 멈춤
 if place_meeting(x, y + 1, Obj_Platform)
 {
 	image_speed = 1
-	if (floor(val_Hspeed) == 0 or ceil(val_Hspeed) == 0) { sprite_index = Spr_Player_Null; }
+	if (val_Hspeed div 1 == 0) { sprite_index = Spr_Player_Null; }
 	else { sprite_index  = Spr_Player_Null_Move }
 }
-if place_meeting(x, y + 1, Obj_Platform)
+
+if place_meeting(x, y + 1, Obj_Platform) and not (val_On_Ladder == 1)
 {
-	
 	if keyboard_check(val_KeyJump)
 	{
 		val_Charge += val_CSpeed
@@ -33,7 +32,6 @@ if place_meeting(x, y + 1, Obj_Platform)
 	}
 	else if val_Charge != 0
 	{
-		val_Hspeed += val_Charge / val_MaxCharge * val_JHspeed * image_xscale
 		val_Vspeed += val_Charge / val_MaxCharge * val_JVspeed
 		
 		val_Charge = 0
@@ -46,19 +44,15 @@ if place_meeting(x, y + 1, Obj_DangerObject)
 	instance_create_layer(x, y, "GUI", Obj_Fade)
 	audio_pause_sound(NightOwl)
 	audio_play_sound(Sound_GameOver, 0, 0)
-	alarm[2] = 60
-	room_restart()
-	
+	room_restart()	
 }
 
-if place_meeting(x, y, Obj_Platform)
+if place_meeting(x, y, Obj_Platform) and instance_place(x, y, Obj_Platform) == true
 {
 	instance_create_layer(x, y, "GUI", Obj_Fade)
 	audio_pause_sound(NightOwl)
 	audio_play_sound(Sound_GameOver, 0, 0)
-	alarm[2] = 60
 	room_restart()
-	
 }
 
 if showmethemoney == true {
@@ -71,8 +65,6 @@ if showmethemoney == true {
 		var Effect3 = instance_create_layer(x, y, layer, Obj_AttackEffect3)
 		Effect3.image_angle = MouseDIR
 		Effect3.direction = MouseDIR
-
-	
 	}
 }
 else
@@ -98,14 +90,10 @@ if val_HP <= 0
 	instance_create_layer(x, y, "GUI", Obj_Fade)
 	audio_pause_sound(NightOwl)
 	audio_play_sound(Sound_GameOver, 0, 0)
-	alarm[2] = 60
 	room_restart()
 	
 }
-
-event_inherited();
-
-//사다리(버그 많음 ㅈㅅ)
+//사다리. 구조조정중. 건들지마세요.
 if (place_meeting(x, y, Obj_Ladder))
 {
 	val_On_Ladder = true;
@@ -123,29 +111,12 @@ if (place_meeting(x, y, Obj_Ladder))
 		val_Vspeed = 0;
 		val_Gravity = 0;
 	}
-	
-	if keyboard_check(val_KeyJump)
-	{
-		val_Charge += val_CSpeed
-		val_Charge = min(val_Charge, val_MaxCharge)
-	}
-	else if val_Charge != 0
-	{
-		val_Hspeed += val_Charge / val_MaxCharge * val_JHspeed * image_xscale
-		val_Vspeed += val_Charge / val_MaxCharge * val_JVspeed
-		
-		val_Charge = 0
-		audio_play_sound(Sound_Jump01, 0, 0)
-	}
-		
 }
 else
 {
 	val_On_Ladder = false;
-	val_Gravity = 0.7;
+	val_Gravity = val_OriginalGravity;
 }
 
-if (val_On_Ladder == false)
-{
-	val_Vspeed += val_Gravity;
-}
+
+event_inherited();
