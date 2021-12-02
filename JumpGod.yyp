@@ -22,6 +22,7 @@
     {"id":{"name":"Obj_Rope_Micro","path":"objects/Obj_Rope_Micro/Obj_Rope_Micro.yy",},"order":31,},
     {"id":{"name":"Spr_Wall_00_red","path":"sprites/Spr_Wall_00_red/Spr_Wall_00_red.yy",},"order":9,},
     {"id":{"name":"Spr_Crosshair_00_Red","path":"sprites/Spr_Crosshair_00_Red/Spr_Crosshair_00_Red.yy",},"order":19,},
+    {"id":{"name":"CollisionPlatform","path":"scripts/CollisionPlatform/CollisionPlatform.yy",},"order":1,},
     {"id":{"name":"Spr_Critical","path":"sprites/Spr_Critical/Spr_Critical.yy",},"order":7,},
     {"id":{"name":"Spr_Ladder_Mini","path":"sprites/Spr_Ladder_Mini/Spr_Ladder_Mini.yy",},"order":23,},
     {"id":{"name":"Obj_Fade","path":"objects/Obj_Fade/Obj_Fade.yy",},"order":36,},
@@ -127,7 +128,7 @@
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"a.txt","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "2.3.2.560",
+    "IDEVersion": "2.3.7.603",
   },
   "resourceVersion": "1.4",
   "name": "JumpGod",
