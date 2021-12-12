@@ -10,6 +10,7 @@
     {"id":{"name":"Obj_GUI","path":"objects/Obj_GUI/Obj_GUI.yy",},"order":4,},
     {"id":{"name":"Obj_CriticalEffect","path":"objects/Obj_CriticalEffect/Obj_CriticalEffect.yy",},"order":17,},
     {"id":{"name":"Spr_Attack","path":"sprites/Spr_Attack/Spr_Attack.yy",},"order":4,},
+    {"id":{"name":"TestTheme","path":"sounds/TestTheme/TestTheme.yy",},"order":5,},
     {"id":{"name":"Spr_Rope_Mini","path":"sprites/Spr_Rope_Mini/Spr_Rope_Mini.yy",},"order":26,},
     {"id":{"name":"Sound_Death_Laser","path":"sounds/Sound_Death_Laser/Sound_Death_Laser.yy",},"order":1,},
     {"id":{"name":"Spr_Shild","path":"sprites/Spr_Shild/Spr_Shild.yy",},"order":6,},
@@ -128,7 +129,7 @@
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"a.txt","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "2.3.7.603",
+    "IDEVersion": "2.3.7.606",
   },
   "resourceVersion": "1.4",
   "name": "JumpGod",
