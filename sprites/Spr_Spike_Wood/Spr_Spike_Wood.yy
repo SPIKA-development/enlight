@@ -7,9 +7,9 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 31,
-  "bbox_top": 0,
+  "bbox_left": 3,
+  "bbox_right": 30,
+  "bbox_top": 6,
   "bbox_bottom": 31,
   "HTile": false,
   "VTile": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"20e26789-8e79-4f0e-a620-f43b865e0053","path":"sprites/Spr_Wall_Dirt/Spr_Wall_Dirt.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"20e26789-8e79-4f0e-a620-f43b865e0053","path":"sprites/Spr_Wall_Dirt/Spr_Wall_Dirt.yy",},"LayerId":{"name":"aece3386-976c-40f2-b9e6-16d4fb64c415","path":"sprites/Spr_Wall_Dirt/Spr_Wall_Dirt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Spr_Wall_Dirt","path":"sprites/Spr_Wall_Dirt/Spr_Wall_Dirt.yy",},"resourceVersion":"1.0","name":"20e26789-8e79-4f0e-a620-f43b865e0053","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"eb490cc2-153f-465c-91c8-cf2814bd4951","path":"sprites/Spr_Spike_Wood/Spr_Spike_Wood.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"eb490cc2-153f-465c-91c8-cf2814bd4951","path":"sprites/Spr_Spike_Wood/Spr_Spike_Wood.yy",},"LayerId":{"name":"b6b27a78-dfcd-44b5-beef-94ee62dc04d8","path":"sprites/Spr_Spike_Wood/Spr_Spike_Wood.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Spr_Spike_Wood","path":"sprites/Spr_Spike_Wood/Spr_Spike_Wood.yy",},"resourceVersion":"1.0","name":"eb490cc2-153f-465c-91c8-cf2814bd4951","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Spr_Wall_Dirt","path":"sprites/Spr_Wall_Dirt/Spr_Wall_Dirt.yy",},
+    "spriteId": {"name":"Spr_Spike_Wood","path":"sprites/Spr_Spike_Wood/Spr_Spike_Wood.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"64e64739-b2ea-442c-980f-67932aba0ef4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"20e26789-8e79-4f0e-a620-f43b865e0053","path":"sprites/Spr_Wall_Dirt/Spr_Wall_Dirt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f7aad4de-67dc-4287-aba3-78c8dbf3bacf","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"eb490cc2-153f-465c-91c8-cf2814bd4951","path":"sprites/Spr_Spike_Wood/Spr_Spike_Wood.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Spr_Wall_Dirt","path":"sprites/Spr_Wall_Dirt/Spr_Wall_Dirt.yy",},
+    "parent": {"name":"Spr_Spike_Wood","path":"sprites/Spr_Spike_Wood/Spr_Spike_Wood.yy",},
     "resourceVersion": "1.3",
-    "name": "Spr_Wall_Dirt",
+    "name": "Spr_Spike_Wood",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"aece3386-976c-40f2-b9e6-16d4fb64c415","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b6b27a78-dfcd-44b5-beef-94ee62dc04d8","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/스프라이트.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Spr_Wall_Dirt",
+  "name": "Spr_Spike_Wood",
   "tags": [],
   "resourceType": "GMSprite",
 }
