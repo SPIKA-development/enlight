@@ -81,6 +81,7 @@
     {"id":{"name":"Obj_Object","path":"objects/Obj_Object/Obj_Object.yy",},"order":3,},
     {"id":{"name":"Obj_Ladder_Micro_old","path":"objects/Obj_Ladder_Micro_old/Obj_Ladder_Micro_old.yy",},"order":28,},
     {"id":{"name":"Spr_Crosshair_00_White","path":"sprites/Spr_Crosshair_00_White/Spr_Crosshair_00_White.yy",},"order":18,},
+    {"id":{"name":"Platform","path":"objects/Platform/Platform.yy",},"order":39,},
     {"id":{"name":"Obj_AttackEffect3","path":"objects/Obj_AttackEffect3/Obj_AttackEffect3.yy",},"order":14,},
     {"id":{"name":"Spr_Player_Null_Fly","path":"sprites/Spr_Player_Null_Fly/Spr_Player_Null_Fly.yy",},"order":20,},
     {"id":{"name":"Obj_Readme","path":"objects/Obj_Readme/Obj_Readme.yy",},"order":19,},
@@ -131,7 +132,7 @@
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"a.txt","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "2.3.7.606",
+    "IDEVersion": "2.3.2.560",
   },
   "resourceVersion": "1.4",
   "name": "JumpGod",

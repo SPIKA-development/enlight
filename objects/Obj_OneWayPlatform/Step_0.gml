@@ -8,3 +8,8 @@ if (place_meeting(x, y - 1, Obj_Player)) {
 		val_Collision = false
 	}
 }
+*/
+event_inherited();
+
+
+

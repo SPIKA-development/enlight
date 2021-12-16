@@ -7,7 +7,7 @@ if val_Hspeed != 0
 	image_xscale = sign(val_Hspeed)
 }
 
-if !place_meeting(x, y + 1, Obj_Platform)
+if !collision_platform(x, y + 1, val_Vspeed) and val_State != "ladder"
 {
 	sprite_index = Spr_Player_Null_Fly
 	image_speed = 0
@@ -122,32 +122,33 @@ switch(val_State) {
 		
         val_Hspeed = (keyboard_check(ord("D")) - keyboard_check(ord("A"))) * 4
 
-        if (not collision_platform(x, y, yprevious) and collision_platform(x, y + 1, yprevious) and keyboard_check_pressed(vk_space)) {
+        if (not collision_platform(x, y, val_Vspeed) and collision_platform(x, y + 1, val_Vspeed) and keyboard_check_pressed(vk_space)) {
             val_Vspeed -= 12
         }
         
-        if val_On_Ladder and (keyboard_check(ord("W")) or keyboard_check(ord("S"))) val_State = "ladder"
-		
-		val_Hspeed *= val_Friction
+		if val_On_Ladder and (keyboard_check(ord("W")) or keyboard_check(ord("S"))) {
+			val_Gravity = 0
+			val_Hspeed = 0
+			val_Vspeed = 0
+
+			val_State = "ladder"
+		}
     }
     break
     
     case "ladder" : 
     {
-        val_Gravity = 0
-        val_Hspeed = 0
-        val_Vspeed = 0
         
         var _dir_v = keyboard_check(ord("S")) - keyboard_check(ord("W"))
         
-        if (keyboard_check(ord("D")) or keyboard_check(ord("A"))) val_State = "ground"
-        if (! val_On_Ladder) val_State = "ground"
+		val_Hspeed = (keyboard_check(ord("D")) - keyboard_check(ord("A"))) * 4
+		if (! val_On_Ladder) {
+			val_Gravity = 1
+			val_State = "ground"
+		}
         
-        y += val_LadderSpeed * _dir_v
+        val_Vspeed = val_LadderSpeed * _dir_v
         
-        if (collision_platform(x, y, y - 1)) {
-            y -= val_LadderSpeed * _dir_v
-        }
     }
     break
 }

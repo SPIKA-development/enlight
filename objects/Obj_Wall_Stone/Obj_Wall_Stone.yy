@@ -25,7 +25,9 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"sprite_original","path":"objects/Platform/Platform.yy",},"objectId":{"name":"Platform","path":"objects/Platform/Platform.yy",},"value":"Spr_Wall_Stone","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
     "name": "객체",
     "path": "folders/객체.yy",
