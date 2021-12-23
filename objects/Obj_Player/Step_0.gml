@@ -151,8 +151,19 @@ switch(val_State) {
         
     }
     break
-}
 
+	case "Hook" :
+	{
+		var HookDIR = point_direction(x, y, Obj_Hook.x, Obj_Hook.y)
+		var HookSPD = point_distance(x, y, Obj_Hook.x, Obj_Hook.y) / 128
+		val_Hspeed += lengthdir_x(HookSPD, HookDIR)
+		val_Vspeed += lengthdir_y(HookSPD, HookDIR)
+		
+		
+		
+	}
+	break
+}
 val_On_Ladder = place_meeting(x, y, Obj_Ladder)
 
 event_inherited();
