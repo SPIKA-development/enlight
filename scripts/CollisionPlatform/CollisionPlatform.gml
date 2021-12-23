@@ -12,7 +12,7 @@ function collision_platform(x, y, speed_v){
 			_result = true
 			break
 		}
-		if (speed_v == 0) or (speed_v > 0 and not place_meeting(x, y - speed_v, _list[| i])) {
+		if (speed_v == 0 and not place_meeting(x, y - 1, _list[| i])) or (speed_v > 0 and not place_meeting(x, y - speed_v, _list[| i])) {
 			_result = true
 			break
 		}

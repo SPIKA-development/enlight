@@ -40,7 +40,7 @@ if place_meeting(x, y + 1, Obj_Platform) and not (val_On_Ladder == 1)
 if place_meeting(x, y + 1, Obj_DangerObject)
 {
 	instance_create_layer(x, y, "GUI", Obj_Fade)
-	audio_pause_sound(TestTheme)
+	//audio_pause_sound(TestTheme)
 	audio_play_sound(Sound_GameOver, 0, 0)
 	room_restart()	
 }
@@ -48,7 +48,7 @@ if place_meeting(x, y + 1, Obj_DangerObject)
 if place_meeting(x, y, Obj_Platform) and instance_place(x, y, Obj_Platform) == true
 {
 	instance_create_layer(x, y, "GUI", Obj_Fade)
-	audio_pause_sound(TestTheme)
+	//audio_pause_sound(TestTheme)
 	audio_play_sound(Sound_GameOver, 0, 0)
 	room_restart()
 }
@@ -84,7 +84,7 @@ if val_HP <= 0
 {
 	val_HP = val_MaxHP
 	instance_create_layer(x, y, "GUI", Obj_Fade)
-	audio_pause_sound(TestTheme)
+	//audio_pause_sound(TestTheme)
 	audio_play_sound(Sound_GameOver, 0, 0)
 	room_restart()
 	
