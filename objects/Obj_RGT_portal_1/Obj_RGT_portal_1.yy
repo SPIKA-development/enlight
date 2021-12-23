@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "Obj_room_move",
-    "path": "objects/Obj_room_move/Obj_room_move.yy",
+    "name": "Obj_Room_Move",
+    "path": "objects/Obj_Room_Move/Obj_Room_Move.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
