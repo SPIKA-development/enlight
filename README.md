@@ -1,4 +1,4 @@
-# Project Rebuild
+# EnLight
 ## VERSION
 
 **버전 표기 규칙**
