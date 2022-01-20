@@ -159,7 +159,8 @@ switch(val_State) {
 		val_Hspeed += lengthdir_x(HookSPD, HookDIR)
 		val_Vspeed += lengthdir_y(HookSPD, HookDIR)
 		
-		
+		val_Hspeed += ((keyboard_check(ord("D")) - keyboard_check(ord("A"))) * 2 ) / 50
+
 		
 	}
 	break
