@@ -1,9 +1,9 @@
 {
-  "option_windows_display_name": "Project Rebuild",
-  "option_windows_executable_name": "Project Rebuild.exe",
+  "option_windows_display_name": "enlight",
+  "option_windows_executable_name": "enlight.exe",
   "option_windows_version": "0.0.9.1",
-  "option_windows_company_info": "VANTA GAMES",
-  "option_windows_product_info": "Project III",
+  "option_windows_company_info": "Reverence",
+  "option_windows_product_info": "enlight",
   "option_windows_copyright_info": "",
   "option_windows_description_info": "VANTA GAMES Platform game Project",
   "option_windows_display_cursor": true,
