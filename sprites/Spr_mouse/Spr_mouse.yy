@@ -1,5 +1,5 @@
 {
-  "bboxMode": 0,
+  "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
   "origin": 0,
@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 31,
+  "bbox_right": 0,
   "bbox_top": 0,
-  "bbox_bottom": 31,
+  "bbox_bottom": 0,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 32,
-  "height": 32,
+  "width": 1,
+  "height": 1,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"7e704d96-ff2d-4b3a-b4e8-f353ef0b62df","path":"sprites/Spr_Wall_Grass/Spr_Wall_Grass.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7e704d96-ff2d-4b3a-b4e8-f353ef0b62df","path":"sprites/Spr_Wall_Grass/Spr_Wall_Grass.yy",},"LayerId":{"name":"f6f041a4-e3f5-4be3-a594-57b0fe49f163","path":"sprites/Spr_Wall_Grass/Spr_Wall_Grass.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Spr_Wall_Grass","path":"sprites/Spr_Wall_Grass/Spr_Wall_Grass.yy",},"resourceVersion":"1.0","name":"7e704d96-ff2d-4b3a-b4e8-f353ef0b62df","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b5c50f92-aef4-4497-917a-b9abbcf52f49","path":"sprites/Spr_mouse/Spr_mouse.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b5c50f92-aef4-4497-917a-b9abbcf52f49","path":"sprites/Spr_mouse/Spr_mouse.yy",},"LayerId":{"name":"6994f126-b819-44af-bc3f-bcfffa443297","path":"sprites/Spr_mouse/Spr_mouse.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Spr_mouse","path":"sprites/Spr_mouse/Spr_mouse.yy",},"resourceVersion":"1.0","name":"b5c50f92-aef4-4497-917a-b9abbcf52f49","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Spr_Wall_Grass","path":"sprites/Spr_Wall_Grass/Spr_Wall_Grass.yy",},
+    "spriteId": {"name":"Spr_mouse","path":"sprites/Spr_mouse/Spr_mouse.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"0d035aea-ff4b-448c-ae7f-d0a6e2121516","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7e704d96-ff2d-4b3a-b4e8-f353ef0b62df","path":"sprites/Spr_Wall_Grass/Spr_Wall_Grass.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"9eb562ef-376c-469a-92ad-4f3bafa12476","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b5c50f92-aef4-4497-917a-b9abbcf52f49","path":"sprites/Spr_mouse/Spr_mouse.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Spr_Wall_Grass","path":"sprites/Spr_Wall_Grass/Spr_Wall_Grass.yy",},
+    "parent": {"name":"Spr_mouse","path":"sprites/Spr_mouse/Spr_mouse.yy",},
     "resourceVersion": "1.3",
-    "name": "Spr_Wall_Grass",
+    "name": "Spr_mouse",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f6f041a4-e3f5-4be3-a594-57b0fe49f163","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6994f126-b819-44af-bc3f-bcfffa443297","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/스프라이트.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Spr_Wall_Grass",
+  "name": "Spr_mouse",
   "tags": [],
   "resourceType": "GMSprite",
 }
