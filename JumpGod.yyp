@@ -13,6 +13,7 @@
     {"id":{"name":"Spr_Attack","path":"sprites/Spr_Attack/Spr_Attack.yy",},"order":4,},
     {"id":{"name":"TestTheme","path":"sounds/TestTheme/TestTheme.yy",},"order":5,},
     {"id":{"name":"Spr_Rope_Mini","path":"sprites/Spr_Rope_Mini/Spr_Rope_Mini.yy",},"order":26,},
+    {"id":{"name":"Obj_PauseMenu","path":"objects/Obj_PauseMenu/Obj_PauseMenu.yy",},"order":46,},
     {"id":{"name":"Sound_Death_Laser","path":"sounds/Sound_Death_Laser/Sound_Death_Laser.yy",},"order":1,},
     {"id":{"name":"Spr_Hook","path":"sprites/Spr_Hook/Spr_Hook.yy",},"order":36,},
     {"id":{"name":"Spr_Shild","path":"sprites/Spr_Shild/Spr_Shild.yy",},"order":6,},

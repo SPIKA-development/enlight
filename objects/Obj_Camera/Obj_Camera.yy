@@ -22,10 +22,13 @@
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
-    {"varType":0,"value":"1920 / 4","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_CamWidth","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":0,"value":"1080 / 4","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_CamHeight","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":0,"value":"1920 / 4","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_GoalCamWidth","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":0,"value":"1080 / 4","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_GoalCamHeight","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"1366","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_WindowWidth","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"768","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_WindowHeight","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"2","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_Ratio","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"val_WindowWidth / val_Ratio","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_CamWidth","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"val_WindowHeight / val_Ratio","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_CamHeight","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"val_WindowWidth / val_Ratio","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_GoalCamWidth","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"val_WindowHeight / val_Ratio","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"val_GoalCamHeight","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {
