@@ -70,6 +70,7 @@
     {"id":{"name":"Spr_Rope_Micro","path":"sprites/Spr_Rope_Micro/Spr_Rope_Micro.yy",},"order":27,},
     {"id":{"name":"Spr_OnOff_00","path":"sprites/Spr_OnOff_00/Spr_OnOff_00.yy",},"order":3,},
     {"id":{"name":"Obj_OnOff","path":"objects/Obj_OnOff/Obj_OnOff.yy",},"order":8,},
+    {"id":{"name":"Spr_Player_Null_EFT","path":"sprites/Spr_Player_Null_EFT/Spr_Player_Null_EFT.yy",},"order":38,},
     {"id":{"name":"Obj_Debugmode","path":"objects/Obj_Debugmode/Obj_Debugmode.yy",},"order":25,},
     {"id":{"name":"Obj_Enemy","path":"objects/Obj_Enemy/Obj_Enemy.yy",},"order":15,},
     {"id":{"name":"Tileset_Tample_00","path":"tilesets/Tileset_Tample_00/Tileset_Tample_00.yy",},"order":0,},
