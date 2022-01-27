@@ -133,8 +133,40 @@ switch(val_State) {
 
 			val_State = "ladder"
 		}
+		if mouse_check_button_pressed(mb_right) 
+		{
+			var MouseDIR = point_direction(x, y, mouse_x, mouse_y)
+			var TP = 64
+
+			val_Hspeed += lengthdir_x(TP, MouseDIR)
+			val_Vspeed += lengthdir_y(TP, MouseDIR) / 4
+			
+			val_State = "dash"
+			val_DashCount = 5
+		}
+		
     }
     break
+	
+	case "dash" : 
+	{		
+		var _dasheff = instance_create_layer(x, y, layer, Obj_DashEft)
+		_dasheff.image_xscale = image_xscale
+
+		val_Hspeed *= (1 - val_Friction)
+
+		_dasheff = instance_create_layer(x + val_Hspeed / 2, y + val_Vspeed / 2, layer, Obj_DashEft)
+		_dasheff.image_xscale = image_xscale
+		
+		val_DashCount--
+		
+		
+		if val_DashCount <= 0
+		{
+			val_State = "ground"
+		}
+	}
+	break
     
     case "ladder" : 
     {
@@ -154,12 +186,12 @@ switch(val_State) {
 
 	case "Hook" :
 	{
-		var HookDIR = point_direction(x, y, Obj_Hook.x, Obj_Hook.y)
-		var HookSPD = point_distance(x, y, Obj_Hook.x, Obj_Hook.y) / 128
-		val_Hspeed += lengthdir_x(HookSPD, HookDIR)
-		val_Vspeed += lengthdir_y(HookSPD, HookDIR)
+		//var HookDIR = point_direction(x, y, Obj_Hook.x, Obj_Hook.y)
+		//var HookSPD = point_distance(x, y, Obj_Hook.x, Obj_Hook.y) / 128
+		//val_Hspeed += lengthdir_x(HookSPD, HookDIR)
+		//val_Vspeed += lengthdir_y(HookSPD, HookDIR)
 		
-		val_Hspeed += ((keyboard_check(ord("D")) - keyboard_check(ord("A"))) * 2 ) / 50
+		//val_Hspeed += ((keyboard_check(ord("D")) - keyboard_check(ord("A"))) * 2 ) / 50
 
 		
 	}
